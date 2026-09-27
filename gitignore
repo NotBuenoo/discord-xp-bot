@@ -1,0 +1,28 @@
+# Environment variables (bot token, secrets)
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+*.pid
+*.seed
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Bot database/storage, if applicable (adjust to match your actual setup)
+*.sqlite
+*.db
+data/
