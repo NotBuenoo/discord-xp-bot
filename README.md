@@ -76,7 +76,7 @@ sudo systemctl enable --now discord-xp-bot
 - The bot checks voice channels on a per-minute interval.
 - A member earns XP for that minute only if their voice channel has **2 or more** members present.
 - XP accumulates per user, per server, over time.
-- At the end of each week, the bot posts a leaderboard summary of the top XP earners to the configured channel.
+- At the end of each week (Defaults to Sunday, 1AM UTC+0), the bot posts a leaderboard summary of the top XP earners to the configured channel.
 
 ## License
 
